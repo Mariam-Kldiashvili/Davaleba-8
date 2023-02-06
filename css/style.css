@@ -33,12 +33,33 @@
 
  }
 
- @keyframes change{
-
+ @keyframes change {
     0%{
         background-color: yellow;
     }
 
     100%{
         background-color: rgba(212, 221, 78, 0.1);
+
  }
+
+
+ }
+
+    
+
+
+/* text  */
+
+
+.text{
+    font-size: 20px;
+    transition-property: all;
+    transition-duration: 7s;
+}
+
+.text:hover {
+      
+    font-size: 8px;
+
+}
