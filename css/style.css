@@ -27,8 +27,18 @@
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    background-color: aqua;
-    opacity: .4;
+    background-color: yellow;
+    /* opacity: .4; */
     animation: change 4s;
 
+ }
+
+ @keyframes change{
+
+    0%{
+        background-color: yellow;
+    }
+
+    100%{
+        background-color: rgba(212, 221, 78, 0.1);
  }
