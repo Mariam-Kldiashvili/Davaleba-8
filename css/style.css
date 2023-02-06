@@ -105,6 +105,21 @@ ul{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
+    animation-name: photo;
+    animation-duration: 5s;
+    transform: rotate(360deg);
+    animation-iteration-count: infinite;
 
-    animation-timing-function: ;
+  
+}
+
+@keyframes photo{
+
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
 }
